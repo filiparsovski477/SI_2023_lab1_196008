@@ -1,0 +1,158 @@
+git init
+-inicijaliziram prazen repo vo mojot lokalen folder
+
+git remote add origin https://github.com/filiparsovski477/SI_2023_lab1_196008.git
+- go povrzuvam mojot repo so oddaleceniot repo
+
+git add README.md
+ - ja dodavam readme vo staging area
+
+git commit -m "Initial commit"
+
+-go pravam prviot commit
+
+git add SILab1.java
+
+- go dodavam fajlot vo staging area za da bide commitnat
+
+git commit -m "Add java class"
+
+- pravam commit na silab1.java vo moeto lokalno repo
+
+git push -u origin master
+
+- go sinhroniziram moe lokalno repo so remote repo
+
+git branch bug1
+
+- kreiram granka bug1
+
+git branch bug2
+
+- kreiram granka bug2
+
+git branch bug3
+
+- kreiram granka bug3
+
+git checkout bug1
+
+-se prefrlam na grankata bug1
+
+git add SILab1.java
+
+-bidejki go smeniv fajlot, go dodavam vo staging za da se commitne
+
+git commit -m "Fix wrong loop for reading"
+
+-pravam commit na prethodnoto (vo branchot bug1)
+
+git checkout bug2
+
+-se prefrlam na grankata bug2
+
+git add SILab1.java
+
+- go dodavam promenetiot fajl vo staging
+
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+- pravam commit so porakata pogore (vo branchot bug2)
+
+git checkout bug3
+
+- se prefrlam na grankata bug3
+
+git add SILab1.java
+
+-go stageam promenetiot fajl
+
+git commit -m ""Fix method sumEvenNumbers"
+
+-pravam commit na promenata (vo branchot bug3)
+
+git push -u origin bug1
+git push -u origin bug2
+git push -u origin bug3
+
+- so ovie 3 komandi go sinhroniziram oddaleceniot repo
+so moj repo za sekoja od grankite bug1, bug2, bug3
+
+git checkout master
+
+-se prefrlam na grankata master
+
+ git push -u origin master
+
+- ja sinhroniziram master so remote repo, drugite granki se nepromeneti
+
+git merge bug1
+
+- ja spojuvam bug1 nakaj master
+
+git push -u origin master
+
+- ja sinhroniziram master so remote repo
+
+git merge bug2
+
+- ja spojuvam bug2 nakaj master
+
+git push -u origin master
+
+- ja sinhroniziram master so remote repo
+
+git checkout bug3
+
+-se prefrlam na grankata bug3
+
+git rebase master
+
+-pravam rebase nakaj grankata master na bug3
+
+git checkout master
+
+-se vrakjam na master
+
+git merge bug3
+
+-ja spojuvam bug3 na master
+
+git push -u origin master
+
+- ja sinhroniziram master so remote repo
+
+git push -u origin bug1
+
+- ja sinhroniziram bug1 so remote repo
+
+git push -u origin bug2
+
+- ja sinhroniziram bug2 so remote repo
+
+git push -u --force origin bug3
+
+- ja sinhroniziram bug3 so remote repo
+
+git add 196008.txt logs.txt
+
+-gi dodavam fajlovite vo staging area
+
+git commit -m "Final commit"
+
+-go pravam posledniot commit
+
+git push -u origin master
+git push -u origin bug1
+git push -u origin bug2
+git push -u origin bug3
+
+- gi sinhroniziram site granki so remote repo
+
+
+
+
+
+
+
+

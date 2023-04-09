@@ -1,0 +1,64 @@
+commit 593b210a73206c0c6c68379e4c7ee9f51c4f82b4 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 22:10:43 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 4738f4b0315577ad3ba7068d88766439684d5f03
+Merge: 07bc5bb 24f2dd6
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 22:20:07 2023 +0200
+
+    Merge branch 'bug2'
+     Please enter a commit message to explain why this merge is neces
+
+    :wq
+
+commit 24f2dd6b146278808f3eca76360ad4c3c9230890 (origin/bug2, bug2)
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 22:07:57 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 07bc5bbce8b102e026b8c5411b5924c0984197b1 (origin/bug1, bug1)
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 22:04:15 2023 +0200
+
+    Fix wrong loop for reading
+
+commit ed2a7c7ac307561902fe325c7780f9647f300d2a
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 21:50:55 2023 +0200
+
+    Add java class
+
+commit 9e08c3b123356a73f8780e62802182ad1cb75147
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 21:46:17 2023 +0200
+
+    Initial commit
+(END)
+
+commit 24f2dd6b146278808f3eca76360ad4c3c9230890 (origin/bug2, bug2)
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 22:07:57 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 07bc5bbce8b102e026b8c5411b5924c0984197b1 (origin/bug1, bug1)
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 22:04:15 2023 +0200
+
+    Fix wrong loop for reading
+
+commit ed2a7c7ac307561902fe325c7780f9647f300d2a
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 21:50:55 2023 +0200
+
+    Add java class
+
+commit 9e08c3b123356a73f8780e62802182ad1cb75147
+Author: Your Name <you@example.com>
+Date:   Sun Apr 9 21:46:17 2023 +0200
+
+    Initial commit
